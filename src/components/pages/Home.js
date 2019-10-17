@@ -44,19 +44,21 @@ export default withAuth(
         </div>
       ) : (
         <div>
-          <p className="lead">
-            If you are a staff member, please get your credentials from your
-            supervisor
-          </p>
+          <p className="lead">Welcome to the future of online marketing.</p>
           <button className="btn btn-dark btn-lg" onClick={this.login}>
             Login
+          </button>
+          <br />
+          <br />
+          <button className="btn btn-light btn-lg" onClick={this.login}>
+            Register
           </button>
         </div>
       );
 
       return (
         <div className="jumbotron">
-          <h1 className="display-4">Acme Staff Portal</h1>
+          <h1 className="display-4">SkySprout Portal</h1>
           {mainContent}
         </div>
       );
