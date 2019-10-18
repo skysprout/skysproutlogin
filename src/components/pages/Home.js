@@ -58,7 +58,7 @@ export default withAuth(
 
       return (
         <div className="jumbotron">
-          <h1 className="display-4">SkySprout Portal</h1>
+          <h1 className="display-4">SkySprout Portal 1</h1>
           {mainContent}
         </div>
       );

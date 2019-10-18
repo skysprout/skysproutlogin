@@ -30,7 +30,7 @@ class App extends Component {
               <SecureRoute path="/staff" exact={true} component={Staff} />
               <Route
                 path="/login"
-                render={() => <Login baseUrl="https://dev-663938.com" />}
+                render={() => <Login baseUrl="https://dev-663938.okta.com" />}
               />
               <Route path="/implicit/callback" component={ImplicitCallback} />
             </div>
